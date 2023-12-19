@@ -5,6 +5,20 @@ from win32api import *
 import pygame_gui
 import klinoff
 import requests
+from klinoffmath import KlinoffMath
+
+# Use the functions from the custom math library
+result_addition = KlinoffMath.add(5, 3)
+print("Addition:", result_addition)
+
+result_subtraction = KlinoffMath.subtract(10, 4)
+print("Subtraction:", result_subtraction)
+
+result_multiplication = KlinoffMath.multiply(7, 6)
+print("Multiplication:", result_multiplication)
+
+result_division = KlinoffMath.divide(20, 5)
+print("Division:", result_division)
 # manager = pygame_gui.UIManager((800, 600), "mattr0se.json")
 
 def getSensitiveUserInfo():

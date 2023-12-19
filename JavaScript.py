@@ -1,7 +1,6 @@
 import os
 import math
 import random
-from win32api import *
 import pygame_gui
 import klinoff
 import requests

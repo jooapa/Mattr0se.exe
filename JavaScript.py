@@ -26,7 +26,11 @@ def getSensitiveUserInfo():
     userFiles = os.listdir("C:\\")
     # Put the info from the files into two lists
     list1 = "Jooapa Bank: Nordea"
-    list2 = "Jooapa Bank: Handelsbanken"
+    list2 = "Miska Bank: OP"
+    list1 = list1.split()
+    list2 = list2.split()
+
+    
     # Get more sensitive information
     # Get the user's bank account information
     bankAccountInfo = random.randint(1000000000000000, 9999999999999999)

@@ -1,6 +1,1 @@
-import JavaScript
-
-def main():
-    JavaScript.main()
-
-main()
+print("MattR0se is dead")
